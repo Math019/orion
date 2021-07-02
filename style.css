@@ -9,7 +9,6 @@ body {
   width: 100%;
   height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 7px;
 
 
 }
@@ -19,10 +18,31 @@ nav {
   background-color: rgb(73, 80, 80);
   width: 100%;
   height: 50px;
-  margin-bottom: 7px;
   color: white;
+  margin-top: 7px;
+  margin-bottom: 7px
 
 }
+
+.links {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  line-height: 50px;
+}
+
+.links li:hover {
+background: red;
+}
+
+#home{
+ background-color: darkred;
+}
+
+#home:hover{
+  background: red;
+}
+
 
 header {
   text-align: center;
@@ -75,28 +95,4 @@ footer {
   clear: both;
   position: relative;
 
-}
-
-.links {
-  display: inline-flex;
-  text-align: center;
-  list-style: none;
-
-}
-
-button {
-  height: 50px;
-  background-color: rgb(61, 61, 56);
-  border: 0px;
-  text-decoration: none;
-  color: white;
-
-}
-
-button:hover {
-  color: rgb(0, 0, 0);
-}
-
-#home {
-  background-color: red;
 }
